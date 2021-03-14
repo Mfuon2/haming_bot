@@ -1,4 +1,6 @@
 #!/bin/sh
+
+docker-compose up --force-recreate
 echo " "
 echo "#####################################################"
 echo "######       STARTING HAMING BOT SETUP        #######"
@@ -17,7 +19,7 @@ echo "************** ************** ************** **************
 
                 2. On the root shell run 
                 
-                wget https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh && sh Miniconda3-latest-Linux-x86_64.sh && chmod +x ./step_two.sh && ./step_two.sh
+                wget https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh && sh Miniconda3-latest-Linux-x86_64.sh && chmod +x ./haming_bot/step_two.sh && ./haming_bot/step_two.sh
     
 ************** ************** ************** **************"
 echo "#####################################################"
