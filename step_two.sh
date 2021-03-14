@@ -1,8 +1,5 @@
 
-sleep 10
-sleep 10
-exec bash
-
+sleep 5
 echo " ######################################################"
 echo "<<<<<<<<<<< 🔥 Downloading hummingbot and install  🔥 >>>>>>>>>>>>>"
 echo " ######################################################"
@@ -13,7 +10,7 @@ unzip hummingbot.zip -d bullbear
 cd bullbear
 cd hummingbot
 chmod +x ./install
-sudo chmod +x ./clean
+chmod +x ./clean
 
 echo " ######################################################"
 echo "<<<<<<<<<<< 🔥 Cleaning and Installing  🔥 >>>>>>>>>>>>>"
@@ -21,10 +18,10 @@ echo " ######################################################"
 ./clean && ./install \n
 
 
-sleep 10
+sleep 5
 echo "#####################################################"
-echo "######            ✅ ✅ ✅  SETUP DONE          ######"
+echo "######       ✅ ✅ ✅  SETUP DONE          ######"
 echo "###########  ✅ ✅ ✅ ✅  Initializing... ############"
 echo "#####################################################"
-conda activate hummingbot \n
-python3 bin/hummingbot.py \n
+conda activate hummingbot
+python3 bin/hummingbot.py
