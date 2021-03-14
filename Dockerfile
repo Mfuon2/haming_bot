@@ -13,7 +13,5 @@ RUN ls -la
 RUN sleep 5
 RUN chmod +x /haming_bot/entrypoint.sh
 RUN /haming_bot/entrypoint.sh
-RUN sleep 10
-RUN docker run -it hamingbot12345
 
 

@@ -10,12 +10,18 @@ echo "<<<<<<<<<<<   🔥 SEE INSTRUCTIONS BELOW 🔥  >>>>>>>>>>>>>"
 echo "************** ************** ************** **************
 
                 🔥enter the following commands🔥 
+                -------------------------------
 
-    wget https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh && sh Miniconda3-latest-Linux-x86_64.sh && chmod +x ./step_two.sh && ./step_two.sh
+                1. docker run -it --name <prefered name> <image_name>
+                        i.e docker run -it --name ginie trading_bot
+
+                2. On the root shell run 
+                
+                wget https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh && sh Miniconda3-latest-Linux-x86_64.sh && chmod +x ./step_two.sh && ./step_two.sh
     
-      ************** ************** ************** **************"
+************** ************** ************** **************"
 echo "#####################################################"
-echo "######             ❌🛑⛔️ ALERT ❌🛑⛔️          #######"
+echo "######             ❌🛑⛔️ NOTE ❌🛑⛔️          #######"
 echo "#####################################################"
 echo "✅ - Keep hitting enter till you get the question yes or no, then type yes and hit [enter]"
 echo "✅ - You will be asked if you want to install miniconda here - just hit [enter]"
