@@ -4,21 +4,6 @@ echo "#####################################################"
 echo "######       STARTING HAMING BOT SETUP        #######"
 echo "#####################################################"
 echo " "
-
-sleep 5
-echo " "
-echo "<<<<<<<<<<< 🛑 Environment Setup 🛑 >>>>>>>>>>>>>"
-echo " "
-docker run -it ubuntu
-
-echo "#####################################################"
-echo "######            ✅ ✅ ✅ ✅ ✅ ✅ ✅          #######"
-echo "#####################################################"
-sleep 5
-echo " "
-echo "<<<<<<<<<<< 🛑 Installing  Miniconda3 🛑 >>>>>>>>>>>>>"
-echo " "
-sleep 5
 echo " "
 echo "<<<<<<<<<<< 🔥 Run The following scripts 🔥 >>>>>>>>>>>>>"
 echo "<<<<<<<<<<<   🔥 SEE INSTRUCTIONS BELOW 🔥  >>>>>>>>>>>>>"
