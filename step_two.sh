@@ -23,5 +23,6 @@ echo "#####################################################"
 echo "######       ✅ ✅ ✅  SETUP DONE          ######"
 echo "###########  ✅ ✅ ✅ ✅  Initializing... ############"
 echo "#####################################################"
+exec bash
 conda activate hummingbot
 python3 bin/hummingbot.py
