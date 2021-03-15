@@ -1,4 +1,7 @@
+
 #!/bin/sh
+# Sleeps are created  with three seconds each to allow room for process completion. 
+# you can change either if you want to slow or make faster the installation process
 
 docker-compose up --force-recreate
 echo " "
