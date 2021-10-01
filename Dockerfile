@@ -1,4 +1,4 @@
-FROM ubuntu AS build
+FROM ubuntu:20.04 AS build
 LABEL maintainer="Mfuon Leonard" MAINTAINER="Mfuon Leonard <mfolee@gmail.com>"
 LABEL application="hamingBot"
 ENV TERM=xterm-256color
